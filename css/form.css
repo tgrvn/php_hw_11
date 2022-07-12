@@ -1,0 +1,22 @@
+section form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 600px;
+  gap: 10px;
+}
+
+section form input[type="text"],
+textarea {
+  padding: 6px 8px;
+}
+
+section form input[type="submit"] {
+  margin: 10px 0;
+  padding: 6px 0;
+  cursor: pointer;
+}
+
+section form textarea {
+  resize: none;
+}
